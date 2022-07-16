@@ -1,0 +1,108 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/0bcf43b/
+Adducts	./seq/adducts.py	/^class Adducts:$/;"	c
+Base	./seq/bases.py	/^class Base:$/;"	c
+Bases	./seq/bases.py	/^class Bases:$/;"	c
+Compound	./seq/compounds.py	/^class Compound:$/;"	c
+CompoundFeature	./seq/seq_manager.py	/^class CompoundFeature:$/;"	c
+DirectBase	./seq/bases.py	/^class DirectBase(Base):$/;"	c
+Modifications	./seq/bases.py	/^class Modifications(Bases):$/;"	c
+PARENT_DIR	./process.py	/^PARENT_DIR = os.path.dirname(os.getcwd())$/;"	v
+SeqManager	./seq/seq_manager.py	/^class SeqManager:$/;"	c
+__all__	./seq/__init__.py	/^__all__ = ['SeqManager']$/;"	v
+__init__	./seq/adducts.py	/^    def __init__(self, csv_file=None):$/;"	m	class:Adducts
+__init__	./seq/bases.py	/^    def __init__(self, csv_file=None):$/;"	m	class:Bases
+__init__	./seq/bases.py	/^    def __init__(self, row):$/;"	m	class:Base
+__init__	./seq/bases.py	/^    def __init__(self, row):$/;"	m	class:DirectBase
+__init__	./seq/seq_manager.py	/^    def __init__(self):$/;"	m	class:CompoundFeature
+__init__	./seq/seq_manager.py	/^    def __init__(self):$/;"	m	class:SeqManager
+__str__	./seq/bases.py	/^    def __str__(self):$/;"	m	class:Base
+__str__	./seq/bases.py	/^    def __str__(self):$/;"	m	class:DirectBase
+_extrem_values	./seq/seq_manager.py	/^    def _extrem_values(self, cpds):$/;"	m	class:SeqManager
+_is_symbol_occupied	./seq/seq_manager.py	/^    def _is_symbol_occupied(self, seqs, seq):$/;"	m	class:SeqManager
+_make_col_qs	./seq/seq_manager.py	/^    def _make_col_qs(self, cpds):$/;"	m	class:SeqManager
+_make_col_width	./seq/seq_manager.py	/^    def _make_col_width(self, cpds):$/;"	m	class:SeqManager
+_make_mass_seq	./seq/seq_manager.py	/^    def _make_mass_seq(self, anchor, symbol_seq, tail=False):$/;"	m	class:SeqManager
+_make_random_compounds	./seq/seq_manager.py	/^    def _make_random_compounds(self, N, feature):$/;"	m	class:SeqManager
+_make_rt_seq	./seq/seq_manager.py	/^    def _make_rt_seq(self, mass_seq):$/;"	m	class:SeqManager
+_make_symbol_seq	./seq/seq_manager.py	/^    def _make_symbol_seq(self, length, nodes):$/;"	m	class:SeqManager
+_make_vol_seq	./seq/seq_manager.py	/^    def _make_vol_seq(self, length):$/;"	m	class:SeqManager
+action	./process.py	/^def action(anchor, orientation, length, num, output_dir):$/;"	f
+adds	./seq/bases.py	/^    def adds(self):$/;"	m	class:Bases
+adduct_name	./seq/adducts.py	/^    def adduct_name(self, mass):$/;"	m	class:Adducts
+adduct_value	./seq/adducts.py	/^    def adduct_value(self, name):$/;"	m	class:Adducts
+bs	./seq/adducts.py	/^    bs = Adducts()$/;"	v
+bs	./seq/bases.py	/^    bs = Bases()$/;"	v
+cb	./seq/adducts.py	/^    cb = bs.combs()$/;"	v
+combs	./seq/adducts.py	/^    def combs(self):$/;"	m	class:Adducts
+cpds2df	./seq/compounds.py	/^    def cpds2df(cls, cpds):$/;"	m	class:Compound
+dm2ppm	./seq/bases.py	/^    def dm2ppm(self, m, stringency):$/;"	m	class:Bases
+element	./seq/bases.py	/^element = {'H':1.007825035,$/;"	v
+end	./seq/bases.py	/^    def end(self):$/;"	m	class:Base
+find	./seq/adducts.py	/^    def find(self, m, stringency):$/;"	m	class:Adducts
+formula2mass	./seq/bases.py	/^    def formula2mass(self, formuladict):$/;"	m	class:Base
+formulastr	./seq/bases.py	/^    def formulastr(self):$/;"	m	class:Base
+func	./seq/seq_manager.py	/^        def func(x):$/;"	f	member:SeqManager._make_col_width	file:
+func_high	./seq/seq_manager.py	/^        def func_high(x):$/;"	f	member:SeqManager.make_ineffective_noises_inside_zone	file:
+func_low	./seq/seq_manager.py	/^        def func_low(x):$/;"	f	member:SeqManager.make_ineffective_noises_inside_zone	file:
+internal	./seq/bases.py	/^    def internal(self):$/;"	m	class:Base
+load_csv	./seq/adducts.py	/^    def load_csv(self, csv_file=None):$/;"	m	class:Adducts
+load_csv	./seq/bases.py	/^    def load_csv(self, csv_file=None):$/;"	m	class:Bases
+load_csv_directly	./seq/bases.py	/^    def load_csv_directly(self, csv_file):$/;"	m	class:Bases
+load_csv_directly	./seq/bases.py	/^    def load_csv_directly(self, csv_file):$/;"	m	class:Modifications
+longname	./seq/bases.py	/^    def longname(self):$/;"	m	class:Base
+main	./__main__.py	/^def main(args):$/;"	f
+make_anchor_point	./seq/seq_manager.py	/^    def make_anchor_point(self, anchor):$/;"	m	class:SeqManager
+make_core_seq	./seq/seq_manager.py	/^    def make_core_seq(self, anchor, length, tail=False):$/;"	m	class:SeqManager
+make_cpds	./seq/seq_manager.py	/^    def make_cpds(self, orientation, length, N=1):$/;"	m	class:SeqManager
+make_effective_noises	./seq/seq_manager.py	/^    def make_effective_noises(self, cpds):$/;"	m	class:SeqManager
+make_extra_columns	./seq/seq_manager.py	/^    def make_extra_columns(self, points):$/;"	m	class:SeqManager
+make_ineffective_noises_in_left_zone	./seq/seq_manager.py	/^    def make_ineffective_noises_in_left_zone(self, cpds):$/;"	m	class:SeqManager
+make_ineffective_noises_in_lower_zone	./seq/seq_manager.py	/^    def make_ineffective_noises_in_lower_zone(self, cpds):$/;"	m	class:SeqManager
+make_ineffective_noises_in_upper_zone	./seq/seq_manager.py	/^    def make_ineffective_noises_in_upper_zone(self, cpds):$/;"	m	class:SeqManager
+make_ineffective_noises_inside_zone	./seq/seq_manager.py	/^    def make_ineffective_noises_inside_zone(self, cpds):$/;"	m	class:SeqManager
+make_multi_core_seq	./seq/seq_manager.py	/^    def make_multi_core_seq(self, N, anchor, rev_anchor, length, tail=False):$/;"	m	class:SeqManager
+make_reversed_core_seq	./seq/seq_manager.py	/^    def make_reversed_core_seq(self, anchor, seq, tail=False):$/;"	m	class:SeqManager
+make_salts	./seq/seq_manager.py	/^    def make_salts(self, base_salts, cpds):$/;"	m	class:SeqManager
+make_seq_points	./seq/seq_manager.py	/^    def make_seq_points(self, anchor, symbol_seq, tail=False):$/;"	m	class:SeqManager
+mass	./seq/adducts.py	/^    def mass(self):$/;"	m	class:Adducts
+mass	./seq/bases.py	/^    def mass(self):$/;"	m	class:Base
+mass	./seq/compounds.py	/^    mass = attr.ib(default=0)$/;"	v	class:Compound
+mass_of_name	./seq/bases.py	/^    def mass_of_name(self, name):$/;"	m	class:Bases
+mass_of_tail	./seq/bases.py	/^    def mass_of_tail(self, name):$/;"	m	class:Bases
+match_base	./seq/bases.py	/^    def match_base(self, diff, mass):$/;"	m	class:Bases
+match_bases_np	./seq/bases.py	/^    def match_bases_np(self, mass, df):$/;"	m	class:Bases
+match_conjunct	./seq/bases.py	/^    def match_conjunct(self, t, h):$/;"	m	class:Bases
+match_start	./seq/bases.py	/^    def match_start(self, df):$/;"	m	class:Bases
+match_start_edge	./seq/bases.py	/^    def match_start_edge(self, diff, mass):$/;"	m	class:Bases
+max	./seq/adducts.py	/^    def max(self):$/;"	m	class:Adducts
+max	./seq/bases.py	/^    def max(self):$/;"	m	class:Bases
+min	./seq/adducts.py	/^    def min(self):$/;"	m	class:Adducts
+min	./seq/bases.py	/^    def min(self):$/;"	m	class:Bases
+mp	./seq/bases.py	/^import multiprocessing as mp$/;"	I
+name	./seq/adducts.py	/^    def name(self):$/;"	m	class:Adducts
+name	./seq/bases.py	/^    def name(self):$/;"	m	class:Base
+np	./seq/adducts.py	/^import numpy as np$/;"	I
+np	./seq/seq_manager.py	/^import numpy as np$/;"	I
+pd	./seq/adducts.py	/^import pandas as pd$/;"	I
+pd	./seq/bases.py	/^import pandas as pd$/;"	I
+pd	./seq/compounds.py	/^import pandas as pd$/;"	I
+ppm2dm	./seq/bases.py	/^    def ppm2dm(self, m, ppm=5.0):$/;"	m	class:Bases
+qs	./seq/compounds.py	/^    qs = attr.ib(default=100)$/;"	v	class:Compound
+rt	./seq/compounds.py	/^    rt = attr.ib(default=0)$/;"	v	class:Compound
+run	./process.py	/^def run(anchor, orientation, length, num, output_path):$/;"	f
+sequences	./seq/seq_manager.py	/^    def sequences(self):$/;"	m	class:SeqManager
+start	./seq/bases.py	/^    def start(self):$/;"	m	class:Base
+start	./seq/bases.py	/^    def start(self):$/;"	m	class:Bases
+str2formula	./seq/bases.py	/^    def str2formula(self, s):$/;"	m	class:Base
+symbol_names	./seq/bases.py	/^    def symbol_names(self):$/;"	m	class:Bases
+to_excel	./seq/seq_manager.py	/^    def to_excel(self, cpds, fpath):$/;"	m	class:SeqManager
+usage	./process.py	/^def usage(cmd):$/;"	f
+vol	./seq/compounds.py	/^    vol = attr.ib(default=0)$/;"	v	class:Compound
+width	./seq/compounds.py	/^    width = attr.ib(default=1.0)$/;"	v	class:Compound
